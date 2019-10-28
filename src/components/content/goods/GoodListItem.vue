@@ -1,10 +1,19 @@
 <template>
-  
+  <div>
+      <img :src="goodsItems.show.img" alt="">
+  </div>
 </template>
 
 <script>
 export default {
-    name:"GoodListItem"
+    name:"GoodListItem",
+    props:{
+        goodsItems:{
+            default(){
+                return {}
+            }
+        }
+    }
 }
 </script>
 
