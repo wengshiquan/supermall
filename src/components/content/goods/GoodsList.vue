@@ -6,7 +6,7 @@
 
 <script>
 
-import GoodsListItem from './GoodListItem'
+import GoodsListItem from './GoodsListItem'
 
 export default {    
     name:"GoodsList",
@@ -24,6 +24,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .goods{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 2px;
+    }
 </style>
